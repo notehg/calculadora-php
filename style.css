@@ -1,0 +1,34 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+#about{
+    text-align: center;
+    background-color: blueviolet;
+    color: darkblue;
+}
+
+#services{
+    color: crimson;
+}
+
+@media screen and (max-width:500px) {
+
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    
+    #about{
+        text-align: center;
+        background-color: chocolate;
+        color: chartreuse;
+    }
+    
+    #services{
+        color: crimson;
+    }
